@@ -1,0 +1,23 @@
+.navbar {
+    height: 48px;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logolinks {
+    display: flex;
+    width: 380px;
+    height: 40px;
+    justify-content: space-between;
+}
