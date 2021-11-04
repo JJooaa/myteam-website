@@ -1,0 +1,19 @@
+.benefit {
+    width: 540px;
+    height: 94px;
+    display: flex;
+}
+
+.benefit-img {
+    height: 72px;
+    width: 72px;
+}
+
+.benefit-info {
+    margin-left: 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 445px;
+    height: 94px;
+}
