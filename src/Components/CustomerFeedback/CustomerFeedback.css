@@ -1,0 +1,19 @@
+.feedback {
+    width: 350px;
+    height: 97%;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../../assets/icon-quotes.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.feedback-img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 2px solid #c4fffe;
+}
