@@ -1,10 +1,10 @@
 import React from "react";
 import "./ContactButton.css";
 
-const ContactButton = () => {
+const ContactButton = ({ color }) => {
     return (
-        <div className="contact-button">
-            <p>contact us</p>
+        <div style={{ borderColor: color }} className="contact-button">
+            <p style={{ color: color }}>contact us</p>
         </div>
     );
 };

@@ -1,0 +1,16 @@
+#getstarted-section {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../assets/bg-pattern-home-6-about-5.svg") no-repeat bottom left;
+    background-color: #F67E7E;
+}
+
+.getstarted-container {
+    width: 917px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
