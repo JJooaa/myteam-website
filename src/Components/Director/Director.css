@@ -1,0 +1,44 @@
+.director-outer {
+    width: 350px;
+    height: 281px;
+}
+
+.director-inner {
+    padding-top: 32px;
+    width: 350px;
+    height: 253px;
+    background-color: #012f34;
+}
+
+.director-info img {
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    border: 2px solid #c4fffe;
+    margin-bottom: 16px;
+}
+
+.director-info p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #79c8c7;
+}
+
+.director-info :last-child {
+    font-size: 15px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #f67e7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 19px;
+}
