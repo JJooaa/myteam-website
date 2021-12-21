@@ -1,0 +1,25 @@
+#directors {
+    height: 1002px;
+    width: 100%;
+    background: url("../../assets/bg-pattern-home-4-about-3.svg") no-repeat
+            bottom right,
+        url("../../assets/bg-pattern-about-2-contact-1.svg") no-repeat top left;
+    background-color: #004047;
+    padding-top: 137px;
+}
+
+.directors-content {
+    width: 1110px;
+    height: 722px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.directors-container {
+    margin-top: 64px;
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
