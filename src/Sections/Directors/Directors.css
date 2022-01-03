@@ -1,5 +1,5 @@
 #directors {
-    height: 1002px;
+    min-height: 1002px;
     width: 100%;
     background: url("../../assets/bg-pattern-home-4-about-3.svg") no-repeat
             bottom right,
@@ -9,15 +9,15 @@
 }
 
 .directors-content {
-    width: 1110px;
-    height: 722px;
+    max-width: 1110px;
+    min-height: 722px;
     margin: 0 auto;
     text-align: center;
 }
 
 .directors-container {
     margin-top: 64px;
-    height: 610px;
+    min-height: 610px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
