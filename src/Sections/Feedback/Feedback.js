@@ -42,7 +42,6 @@ const FeedbackSection = () => {
                 </h2>
                 <div className="feedbacks-wrapper">
                     {Object.entries(Feedbacks).map((item) => {
-                        console.log(item);
                         return (
                             <CustomerFeedback
                                 comment={item[1].comment}

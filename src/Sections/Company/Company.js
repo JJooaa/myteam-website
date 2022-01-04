@@ -32,7 +32,6 @@ const CompanySection = () => {
                 </div>
                 <div className="benefits-container">
                     {Object.entries(benefits).map((item) => {
-                        console.log(item);
                         return (
                             <Benefit
                                 title={item[1].title}
