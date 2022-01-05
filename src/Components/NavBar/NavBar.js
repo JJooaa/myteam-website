@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <div className="navbar">
             <div className="logolinks">
-                <img src={myteamlogo} />
+                <img src={myteamlogo} alt="company logo" />
                 <div className="links">
                     <p onClick={() => setPage("home")}>home</p>
                     <p onClick={() => setPage("about")}>about</p>
