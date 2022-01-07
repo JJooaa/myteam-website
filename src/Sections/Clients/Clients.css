@@ -2,6 +2,9 @@
     width: 100%;
     height: 437px;
     background-color: #012f34;
+    background-image: url("/src/assets/bg-pattern-about-4.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 
 #clients-section h2 {
