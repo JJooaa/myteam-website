@@ -6,6 +6,7 @@ import cogIcon from "../../assets/icon-cog.svg";
 import personIcon from "../../assets/icon-person.svg";
 // bg-pattern-about-2-contact-1.svg;
 // bg-pattern-contact-2.svg;
+import Form from "../../Components/Formik/Formik";
 
 const arrayObjects = [
     {
@@ -42,14 +43,16 @@ const ContactForm = () => {
                                             src={item.image}
                                             alt={item.text}
                                         />
-                                        <p style={{marginLeft: 23}}>{item.text}</p>
+                                        <p style={{ marginLeft: 23 }}>
+                                            {item.text}
+                                        </p>
                                     </div>
                                 );
                             })}
                         </div>
                     </div>
                 </div>
-                <div className="contact-form"></div>
+                <Form />
             </div>
         </section>
     );
