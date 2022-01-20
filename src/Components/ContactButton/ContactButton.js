@@ -7,11 +7,14 @@ const ContactButton = ({ color }) => {
 
     return (
         <div
-            style={{ borderColor: color }}
-            className="contact-button"
+            className={
+                color === "#012F34"
+                    ? "contact-button black"
+                    : "contact-button white"
+            }
             onClick={() => setPage("contact")}
         >
-            <p style={{ color: color }}>contact us</p>
+            contact us
         </div>
     );
 };
