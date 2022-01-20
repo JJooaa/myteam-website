@@ -14,6 +14,13 @@
     align-items: center;
 }
 
+.links p {
+    cursor: pointer;
+}
+
+.links p:hover {
+    color: #f67e7e;
+}
 
 .logolinks {
     display: flex;
