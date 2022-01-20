@@ -9,10 +9,11 @@ import { PageContext } from "../../App";
 const Footer = () => {
     const [page, setPage] = useContext(PageContext);
 
-    const scrollToTop = () => {
+    const scrollToTop = (id) => {
         window.scrollTo(0, 0);
-        if (page === "home") {
-            setPage("about");
+        if (id === page) return;
+        if (id !== page) {
+            setPage(id);
         }
     };
 
@@ -23,8 +24,18 @@ const Footer = () => {
                     <div className="myteam">
                         <img src={myTeam} alt="myteamlogo" />
                         <div className="footer-nav">
-                            <p onClick={() => scrollToTop()}>home</p>
-                            <p onClick={() => scrollToTop()}>about</p>
+                            <p
+                                id="home"
+                                onClick={(e) => scrollToTop(e.target.id)}
+                            >
+                                home
+                            </p>
+                            <p
+                                id="about"
+                                onClick={(e) => scrollToTop(e.target.id)}
+                            >
+                                about
+                            </p>
                         </div>
                     </div>
                     <p
