@@ -4,16 +4,25 @@
     display: flex;
 }
 
-.benefit-img {
+.benefit img {
     height: 72px;
     width: 72px;
 }
 
-.benefit-info {
+.benefit div {
     margin-left: 23px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 445px;
     height: 94px;
+}
+
+.benefit h3 {
+    color: #f67e7e;
+}
+
+.benefit p {
+    font-size: 15px;
+    line-height: 25px;
 }

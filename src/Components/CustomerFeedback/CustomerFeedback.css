@@ -11,7 +11,24 @@
     background-position: top center;
 }
 
-.feedback-img {
+.feedback > p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.nametitle-wrapper h3 {
+    color: #79c8c7;
+    text-align: center;
+}
+
+.nametitle-wrapper p {
+    font-size: 13px;
+    line-height: 18px;
+    font-style: italic;
+    font-weight: 500;
+}
+.feedback img {
     width: 62px;
     height: 62px;
     border-radius: 50%;

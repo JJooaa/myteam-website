@@ -1,15 +1,13 @@
 import React from "react";
 import "./Benefit.css";
 
-const Benefit = ({title, text, icon}) => {
+const Benefit = ({ title, text, icon }) => {
     return (
         <div className="benefit">
-            <img className="benefit-img" src={icon} />
-            <div className="benefit-info">
-                <h3 style={{ color: "#F67E7E" }}>{title}</h3>
-                <p style={{fontSize: "15px", lineHeight: "25px"}}>
-                    {text}
-                </p>
+            <img src={icon} alt="benefit" />
+            <div>
+                <h3>{title}</h3>
+                <p>{text}</p>
             </div>
         </div>
     );

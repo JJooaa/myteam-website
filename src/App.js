@@ -11,9 +11,9 @@ const App = () => {
     return (
         <>
             <PageContext.Provider value={[page, setPage]}>
-                {page === "home" ? <Home /> : null}
-                {page === "about" ? <About /> : null}
-                {page === "contact" ? <Contact /> : null}
+                {page === "home" && <Home />}
+                {page === "about" && <About />}
+                {page === "contact" && <Contact />}
             </PageContext.Provider>
         </>
     );
