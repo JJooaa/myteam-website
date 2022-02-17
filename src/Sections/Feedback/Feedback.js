@@ -36,9 +36,7 @@ const FeedbackSection = () => {
                 <h2 style={{ textAlign: "center" }}>
                     Delivering real results for top <br />
                     companies. Some of our{" "}
-                    <span style={{ color: "#79C8C7" }}>
-                        success stories.
-                    </span>{" "}
+                    <span style={{ color: "#79C8C7" }}>success stories.</span>
                 </h2>
                 <div className="feedbacks-wrapper">
                     {Object.entries(Feedbacks).map((item) => {

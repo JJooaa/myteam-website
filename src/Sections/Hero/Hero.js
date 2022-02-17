@@ -8,7 +8,8 @@ const HeroSection = () => {
             <NavBar />
             <div className="hero-header">
                 <h1>
-                    Find the <br/>best <span>talent</span>
+                    Find the <br />
+                    best <span>talent</span>
                 </h1>
                 <div className="hero-info">
                     <p>
