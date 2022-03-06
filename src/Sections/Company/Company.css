@@ -1,6 +1,6 @@
 #companysection {
     width: 100%;
-    height: 684px;
+    min-height: 684px;
     background-image: url("/src/assets/bg-pattern-home-3.svg");
     background-repeat: no-repeat;
     background-position: 108% bottom;
@@ -10,7 +10,7 @@
 
 .company-container {
     max-width: 1110px;
-    height: 404px;
+    min-height: 404px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -42,4 +42,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (max-width: 1065px) {
+	.company-container {
+		justify-content: center;
+		gap: 40px;
+	}
+	#companysection {
+		padding-top: 50px;
+	}
+
+	.company-title {
+		height: 120px;
+	}
+	.company-title h2 {
+		font-size: 32px;
+	}
+	 
 }
