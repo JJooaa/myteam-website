@@ -3,6 +3,7 @@
 myteam is a frontendmentor.io challenge: https://www.frontendmentor.io/challenges/myteam-multipage-website-mxlEauvW
 
 ⚠️Currently available only in desktop version. ⚠️ Work in progress
+Check it out here https://capable-moonbeam-952f20.netlify.app/
 
 ## My solution
 
